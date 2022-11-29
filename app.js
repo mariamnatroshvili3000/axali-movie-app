@@ -14,3 +14,9 @@ for(let i = 0; i < navElemArr.length; i++) {
         document.body.classList.toggle("active");
     })
 }
+
+// header sticky
+const header = document.querySelector("[data-header]")
+window.addEventListener("scroll", function(){
+    window.scrolly ≥ 10 ? header.classList.add("active") : header.classList.remove("active");
+})

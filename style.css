@@ -88,6 +88,60 @@ body.active{overflow: hidden;}
 /* reused style */
 .container{padding-inline:15px;}
 
+/* TITLES AND SUBTITLES */
+.h1,
+.h2
+.h3 {
+    color: var(--white);
+    line-height: 1.2;
+}
+
+.h1{ font-size: var(--fs-1);}
+
+.h2{font-size:var(--fs-2);}
+
+.h3{font-size:var(--fs-6)}
+
+/* BADGE */
+
+.badge{
+    color:var(--white);
+    font-size: var(--fs-12)
+    font-weight:var(--fw-700)
+    border: 2px solid transparent;
+    padding: 2px 10px;
+}
+
+badge-fill {
+    background: var(--white);
+    color:var(--raisin-black)
+}
+.badge-outline{border-color: var(--white);}
+
+/* movie meta */
+.meta-wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 15px 25px;
+    margin-bottom: 50px;
+}
+
+.badge-wrapper
+.ganre-wrapper
+.date-time{
+    display: flex;
+    flex-wrap:wrap; 
+    align-items:center;
+    gap:5px 10px;
+}
+
+.ganre-wrapper > a{
+    color:var(--gainsboro)
+    font-size: var(--)
+}
+
 /* HEADER */
 .header{
     position:fixed;
@@ -216,3 +270,6 @@ navbar-social-list{
     font-weight: var(--fw-700)
     margin-bottom:10px;
 }
+.hero-title{margin-bottom: 30px;}
+
+.hero-title > strong {color: var(--citrine); }
