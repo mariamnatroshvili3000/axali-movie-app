@@ -16,7 +16,10 @@ for(let i = 0; i < navElemArr.length; i++) {
 }
 
 // header sticky
-const header = document.querySelector("[data-header]")
-window.addEventListener("scroll", function(){
-    window.scrolly ≥ 10 ? header.classList.add("active") : header.classList.remove("active");
-})
+const header = document.querySelector("[data-header]");
+
+window.addEventListener("scroll", function () {
+
+  window.scrollY >= 10 ? header.classList.add("active") : header.classList.remove("active");
+
+});
